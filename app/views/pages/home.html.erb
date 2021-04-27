@@ -1,5 +1,5 @@
-<div class="container">
-  <div class="cards">
+<div class="array">
     <% @trainers.each do |trainer| %>
-      <li><%= image_tag(trainer.picture) %></li>
+      <%= render "trainer_cards", trainer: trainer %>
     <% end %>
+</div>
