@@ -1,8 +1,5 @@
 <div class="container">
   <div class="cards">
     <% @trainers.each do |trainer| %>
-      <%# <div class="trainer">
-      <p>
-        <%=  %> 
-      <li><%= trainer.first_name %></li>
+      <li><%= image_tag(trainer.picture) %></li>
     <% end %>
