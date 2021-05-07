@@ -1,16 +1,30 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: black;
-    // background: white;
-
-
+  background: rgb(0, 0, 0);
 }
 
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 50px;
-  // width: 40px;
+.navbar-lewagon .navbar-brand  {
+  width: 90px;
+  color: rgba(255, 255, 255, 1.0);
+  padding: 5px;
+  &:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 1.0);
+    &:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+}
+.navbar-light .navbar-nav .active > .nav-link{
+  color: rgba(255, 255, 255, 1.0);
 }
